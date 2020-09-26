@@ -2,9 +2,9 @@ import React from 'react';
 
 const MoviesGridItem = ( { id, title, img } ) => {
   return (
-    <div>
+    <div className='column is-one-quarter'>
       <img src={ img } alt={ title }></img>
-      <h3>{ title } ({ id })</h3>
+      <h4>{ title } ({ id })</h4>
     </div>
   )
 }
